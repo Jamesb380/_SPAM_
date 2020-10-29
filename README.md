@@ -30,3 +30,5 @@ The principle component analysis graph show the orthogonal relationships between
 PCA
 
 ![](Images/screeplot.png) ![](Images/porpotion_variance.png)
+
+
