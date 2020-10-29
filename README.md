@@ -12,6 +12,7 @@ Figure 1 – Nearly 40% of all email communication is spam.
 Through careful analysis, We will develop a predictive model to help us understand the data patterns to effeciently dectect Spam emails.
 ## Goal
    To develop a predictive model that more accurately identify Spam emails.
+  
    To reduce the number of false positives (ham emails identified as spam)
 ## Metrics
   1. The percentage of spam e-mails identified with our model.
