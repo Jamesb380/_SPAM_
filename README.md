@@ -83,6 +83,8 @@ We use the Test Set sampling technique to validate the analysis of our data. In 
 
 Additionally, a principal component for the training set with a correlation matrix was built. We also retrieve the principal component regression results with a 98% variance factor from our training set and make predictions at that tolerance level based on the tested data. A confusion matrix is generated for each model. It uses predicted and actual valued in conjunction with a threshold to help assess the performance of with model. The confusion matrix tabularizes the performance of each model. The confusion matrix shown below.
 
-Confusion Matrices Confusion GLM
+Confusion Matrices
+
+![](Images/Confusion_Matrix.jpeg)
 
 
