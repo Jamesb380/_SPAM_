@@ -75,3 +75,6 @@ We observe that a significant amounts of the variables contained in component 1 
 
 The table below shows that the log transform stepwise model outperformed other models against all metrics.
 
+![](Images/AICyBIC.jpeg)
+
+We use the Test Set sampling technique to validate the analysis of our data. In this technique we sample our data by using one-third as an out of sample set for testing and the remaining two-thirds to train or model building. The data is randomly sampled as shown by the following graph:
