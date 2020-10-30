@@ -62,5 +62,5 @@ BIC | 2304.939.              | 1851.955.
 
 The results are as expected. The model with the log transform performed better. This is because the log transform obtains linearity by transforming the probabilities to odds. This linearity allows for ha better scale view of the data that help use better patterns. In essence the log transform flattens what is a multi-dimensional space which in turn allows a better view for analysis. We able to observe this diagnostic plots.
 
-![](Images/main_effect_model_log_trans.png)  ![](Images/main_effect_model_nologtrans.png)
-with log Transformartion.                       without log Tansformation 
+with log Transformartion. ![](Images/main_effect_model_log_trans.png)  without log Tansformation ![](Images/main_effect_model_nologtrans.png)
+                      
