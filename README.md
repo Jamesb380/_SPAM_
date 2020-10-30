@@ -92,5 +92,8 @@ The ROC graphically displays each model’s performance
 
 ![](Images/rocc_models_performance.png).        ![](Images/rocc_models_performancetrain.png)
 
+## Recommendations:
+Based on the evidence, we recommend applying the stepwise log transformation model to the spam detection filter. As it detects a higher number of spam with with few false positives (desired email that are categorized as spam).
+
 
 
