@@ -44,5 +44,7 @@ In a scatter matrix plots of the variables against the response of data is shown
 The graphical response of the variables show an “S” like shaped curve. This is in contrast with straight lines we typically associate with Normal distributions. We observe in a boxplot graphs of the variables against the response. We look to see which variables are more discriminatory toward Spam. Larger separation show more discrimination towards spam. We notice the plots in which transformation log is applied allow for better view of the separation in the distribution.
 (we see collinearity here - V57.  A Straight line)
 
+![](Images/boxplot1_9.png) 
+
 
 
