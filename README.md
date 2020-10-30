@@ -1,4 +1,4 @@
-# _SPAM_
+#  An Analysis of HAM vs. SPAM
 Filter for Spam e-mail
 
 ## Problem Description
