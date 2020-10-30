@@ -31,6 +31,10 @@ The principle analysis bi-plot provides a view of all of the emails, with respec
 The cumulative variance plot describes the cumulative different in variance between components. For Instance, the graph shows the first two component account for about 20% of the variance. Similarly, the first ten components represent 40% of the variance.
 PCA
 
-![](Images/screeplot.png) ![](Images/porpotion_variance.png)
+![](Images/cummulative_sum.png) ![](Images/porpotion_variance.png)
+
+The bar plots shows the outlying variables with a greater than 0.2 uniqueness factor for the first two components.
+
+![](images/barplotloadings.png)
 
 
