@@ -46,6 +46,7 @@ The graphical response of the variables show an “S” like shaped curve. This 
 
 
 ![](Images/boxplot1_9.png) ![](Images/boxplot49_57.png)
+![](Images/factorplot1_9.png)  ![](Images/factorplot20_25.png)
 
 
 
