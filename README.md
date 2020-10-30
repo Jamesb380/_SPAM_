@@ -57,6 +57,7 @@ With the understanding that the data distribution is binomial, we opt to use gen
 
        Main Effect w/o Log)| Main Effect with Log|
 |AIC. | 1931.765.            | 1478.782.           |
+
 |BIC  | 2304.939.            | 1851.955.           |
 
 
