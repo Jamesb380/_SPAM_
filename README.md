@@ -53,11 +53,13 @@ We conclude that the data distribution is binomial given the categorical respons
 
 ## Data Analysis
 
-With the understanding that the data distribution is binomial, we opt to use generalized linear model in the analysis of the data. We began with a main effective model with and without log transformation. Although we do not expect for a model without log transform to be ideal, we use it reference point. The models use variable 58 as the response and all other variables as predictors. A model utility test was run on both models. The result showed that the number hypothesis could be rejected since the “chi” square metric was diminutive in both cases (2.2E-16). The performance metric for each model are shown in the table below:
+With the understanding that the data distribution is binomial, we opt to use generalized linear model in the analysis of the data. We began with a main effective model with and without log transformation. Although we do not expect for a model without log transform to be ideal, we use it reference point. The models use variable 58 as the response and all other variables as predictors. A model utility test was run on both models. The result showed that the number hypothesis could be rejected since the “chi” square metric was diminutive in both cases (2.2E-16). The performance metric for each model are shown below:
 
-Main Effect w/o Log.         | Main Effect with Log|
-AIC | 1931.765.              | 1478.782.           |
+     Main Effect w/o Log.         | Main Effect with Log.
+      
+AIC | 1931.765.              | 1478.782.           
+BIC | 2304.939.              | 1851.955.           
 
-BIC  | 2304.939.             | 1851.955.           |
+The results are as expected. The model with the log transform performed better. This is because the log transform obtains linearity by transforming the probabilities to odds. This linearity allows for ha better scale view of the data that help use better patterns. In essence the log transform flattens what is a multi-dimensional space which in turn allows a better view for analysis. We able to observe this diagnostic plots.
 
 
