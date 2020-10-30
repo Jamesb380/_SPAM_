@@ -87,4 +87,6 @@ Confusion Matrices
 
 ![](Images/Confusion_Matrix.jpeg)
 
+The ROC graphically displays each model’s performance
+With
 
