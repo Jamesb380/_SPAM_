@@ -35,6 +35,6 @@ PCA
 
 The bar plots shows the outlying variables with a greater than 0.2 uniqueness factor for the first two components.
 
-![](images/barplotloadings.png)
+![](Images/barplotloadings.png)
 
 
