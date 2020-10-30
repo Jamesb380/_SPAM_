@@ -70,3 +70,8 @@ The residuals versus fitted plots shows that all errors appear in straight line.
 Given the distribution of the outlying points in the first two components, we theorize removal of variables in component one by in large should improve the model. We attempt manual selection by using the drop term function in conjunction with the update function. We are unable to yield consistent significant improvement. This is because all of the variable coexist in every component in multi-dimensional plane of components. It is difficult to fully understand co-dependencies in the model. It is as if removing cards from a house of cards while attempting to keep the framework in place.
 
 ![](Images/Image%2010-30-20%20at%2011.52%20AM.jpeg)
+
+We observe that a significant amounts of the variables contained in component 1 (as shown in blue) are discarded during the automated selection process. In fact, 6 of the 11 variables in this component are removed in the Stepwise main effect with log transform model. It also removed 3 of 8 variables from component 2. This behavior is consistent with the bi plot shown earlier. We again reminded that the blue points which represent ham extend primary along component 1. The red points which represent spam extend primarily along component two. This validates our assumption that removal of some variables with greater influence from component one would improve our model’s performance. A final effort is made to attempt improvement models with drop term function, but no further improve is obtained.
+
+The table below shows that the log transform stepwise model outperformed other models against all metrics.
+
