@@ -40,5 +40,9 @@ The bar plots shows the outlying variables with a greater than 0.2 uniqueness fa
 In a scatter matrix plots of the variables against the response of data is shown below, we observe that distribution of the data is not Gaussian when measured again the response variable. No significant change is noted when the log transform is applied to the response variable.
 
 ![](Images/scatterlog1_8v58.png) ![](Images/scatterlog47_57v58.png)
-                             (we see collinearity here)
+
+The graphical response of the variables show an “S” like shaped curve. This is in contrast with straight lines we typically associate with Normal distributions. We observe in a boxplot graphs of the variables against the response. We look to see which variables are more discriminatory toward Spam. Larger separation show more discrimination towards spam. We notice the plots in which transformation log is applied allow for better view of the separation in the distribution.
+(we see collinearity here - V57.  A Straight line)
+
+
 
