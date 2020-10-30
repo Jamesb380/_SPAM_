@@ -68,3 +68,5 @@ without log Tansformation ![](Images/main_effect_model_nologtrans.png)
 The residuals versus fitted plots shows that all errors appear in straight line. The scale-location plots also show errors in a straights lines that intercept. The analysis shows generalized linear models are a good fit for this scenario.
 
 Given the distribution of the outlying points in the first two components, we theorize removal of variables in component one by in large should improve the model. We attempt manual selection by using the drop term function in conjunction with the update function. We are unable to yield consistent significant improvement. This is because all of the variable coexist in every component in multi-dimensional plane of components. It is difficult to fully understand co-dependencies in the model. It is as if removing cards from a house of cards while attempting to keep the framework in place.
+
+![](Images/Image%2010-30-20%20at%2011.52%20AM.jpeg)
