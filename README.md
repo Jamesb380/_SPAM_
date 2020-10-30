@@ -89,5 +89,10 @@ Confusion Matrices
 
 The ROC graphically displays each model’s performance
 
+For Training Data
+![](Images/rocc_models_performancetrain.png)
 
+For Testing Data
+
+![](Images/rocc_models_performance.png)
 
