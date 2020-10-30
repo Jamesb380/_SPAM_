@@ -39,5 +39,5 @@ The bar plots shows the outlying variables with a greater than 0.2 uniqueness fa
 
 In a scatter matrix plots of the variables against the response of data is shown below, we observe that distribution of the data is not Gaussian when measured again the response variable. No significant change is noted when the log transform is applied to the response variable.
 
-![](Images/scatterlog1_8v58.png) ![](Images/scatterlog1_8v58.png)
+![](Images/scatterlog1_8v58.png) ![](Images/scatterlog47_57v58.png)
 
