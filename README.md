@@ -25,8 +25,10 @@ Through careful analysis, We will develop a predictive model to help us understa
 The data was obtain from the Hewlett-Packard Labs. The data is experimental. The data is comprised of a collection of statistical information from a collection of e-mail. The reasoning for the selection of factors (words, characters and frequency partners) for identifying spam emails was not disclosed in the briefing, however, this should not impact the result of our analysis. There was no additional manipulation of the data needed to begin our analysis. Appendix A provides a detailed description of the variables in the data file. The first 54 variables indicate whether a particular word or character was frequently occurring in the e-mail. These are expressed percentages of the total amount of characters or words in the e-mails. The next 3 variables measure the presence of continuous capital letters. Finally, the last variable (V58) is binary and categorical since e-mails can either be HAM or SPAM. All of the variables except for the response (V58) are qualitative.
 
 The principle analysis bi-plot provides a view of all of the emails, with respect to Ham and Spam, across a plane of 57 components. We see that ham emails (represented by the blue dots) spread along component one and the spam emails (represented by the red dots) spread along component two. If we imagine a multiple dimensional plane, the red and blue dots represent the most prevalent points at these components. In other words, the points extend beyond the plane at component two and one respectively, but remain interconnected with other components.
-![](Images/biplot_no_log_Trans) ![](Images/biplot_w_log_Trans)
-The principle component analysis graph show the orthogonal relationships between variables. The cumulative variance plot describes the cumulative different in variance between components. For Instance, the graph shows the first two component account for about 20% of the variance. Similarly, the first ten components represent 40% of the variance.
+
+![](Images/biplot_no_log_Trans) ![](Images/biplot_with_log_Trans)
+
+The cumulative variance plot describes the cumulative different in variance between components. For Instance, the graph shows the first two component account for about 20% of the variance. Similarly, the first ten components represent 40% of the variance.
 PCA
 
 ![](Images/screeplot.png) ![](Images/porpotion_variance.png)
